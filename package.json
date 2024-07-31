@@ -1,11 +1,11 @@
 {
   "author": {
-    "name": "Robert Arnesson"
+    "name": "Lewis Munene"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arnesson/cordova-plugin-firebase"
+    "url": "https://github.com/lewismunene020/cordova-plugin-firebase"
   },
   "name": "cordova-plugin-firebase",
   "version": "2.0.6",
@@ -45,5 +45,7 @@
     "test:cordova@7.1.0:browser@5.0.3": "bash ./test/test-default.sh 7.1.0 browser 5.0.3",
     "test:cordova@8.0.0:browser@5.0.3": "bash ./test/test-default.sh 8.0.0 browser 5.0.3"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "xcode": "^3.0.1"
+  }
 }
